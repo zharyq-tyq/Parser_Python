@@ -7,7 +7,7 @@
  
  ```git clone https://github.com/zharyq-tyq/Parser_Python```
  
- ```pip install -r reqirements.txt```
+ ```pip install -r requirements.txt```
 
 ```chmod +x pars.py```
 
