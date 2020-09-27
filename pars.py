@@ -22,8 +22,12 @@ site = input(WHITE + "  [" + GREEN + "+" + WHITE + "] Введите сайт д
 pars_class = input(WHITE + "  [" + GREEN + "+" + WHITE + "] Класс для парсинга: " + Style.RESET_ALL)
 
 print("\033[0m" + "\n" + Style.RESET)
+
+# User Agent
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Safari/537.36'}
+
 # Получаем целый сайт
-r = requests.get(site)
+r = requests.get(site, headers=headers)
 
 # Парсим наш сайт
 html = BeautifulSoup(r.content, "html5lib")
