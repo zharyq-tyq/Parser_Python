@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import requests, os
 from bs4 import BeautifulSoup
 from colorama import init, Fore, Style
@@ -12,7 +13,7 @@ WHITE = "\033[1;37m"
 YELLOW = "\033[1;33m"
 
 os.system("clear")
-print(RED + "  [---------------" + WHITE + "Python" + RED + "-" + WHITE + "Parser" + RED + "---------------]")
+print(RED + "[-----------------" + WHITE + "Python" + RED + "-" + WHITE + "Parser" + RED + "-----------------]")
 print(WHITE + "  [" + GREEN + "+" + WHITE + "] По вопросам:")
 print(WHITE + "  [" + GREEN + "+" + WHITE + "] Telegram -> @zharyqtyq")
 print(WHITE + "  [" + GREEN + "+" + WHITE + "] Instagram -> @zharyqtyq_")
