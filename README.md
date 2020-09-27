@@ -9,8 +9,11 @@
  
  ```pip install -r requirements.txt```
 
-```chmod +x pars.py```
-
 ## ***Запуск***
 
-```./pars.py```
+```python pars.py```
+### По вопросам:
+
+***[Telegram](https://t.me/zharyqtyq)***
+
+***[Instagram](https://instagram.com/zharyqtyq_)***
