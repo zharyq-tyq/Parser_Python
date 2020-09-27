@@ -12,8 +12,5 @@
 ## ***Запуск***
 
 ```python pars.py```
-### По вопросам:
-
-***[Telegram](https://t.me/zharyqtyq)***
-
-***[Instagram](https://instagram.com/zharyqtyq_)***
+## ***По вопросам:*** 
+***[Telegram](https://t.me/zharyqtyq)***, ***[Instagram](https://instagram.com/zharyqtyq_)***
